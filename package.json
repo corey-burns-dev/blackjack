@@ -7,6 +7,7 @@
     "build": "astro build",
     "deploy": "bun run build && npx wrangler deploy",
     "deploy:dry-run": "npx wrangler deploy --dry-run",
+    "cf:status": "../scripts/cf-portfolio.sh status blackjack",
     "preview": "astro preview",
     "astro": "astro",
     "lint": "oxlint",
